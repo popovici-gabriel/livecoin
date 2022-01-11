@@ -1,4 +1,4 @@
-Bitcoin Core integration/staging tree
+Tutorial on how to build crypto coin using https://education-ecosystem.com/elliottminns/l3Xa0-how-to-create-your-own-cryptocurrency-in-c/dnxJB-how-to-create-your-own-cryptocurrency-in-c/ 
 =====================================
 
 https://bitcoincore.org
