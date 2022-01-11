@@ -1,5 +1,7 @@
-Bitcoin Core integration/staging tree
-=====================================
+Tutorial on how to build a crypto coin in C++
+=============================================
+Follow https://education-ecosystem.com/elliottminns/l3Xa0-how-to-create-your-own-cryptocurrency-in-c/dnxJB-how-to-create-your-own-cryptocurrency-in-c/ 
+and start from 0.16.1rc1
 
 [![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
 
