@@ -1,6 +1,7 @@
-Tutorial on how to build crypto coin using https://education-ecosystem.com/elliottminns/l3Xa0-how-to-create-your-own-cryptocurrency-in-c/dnxJB-how-to-create-your-own-cryptocurrency-in-c/ 
-=====================================
-
+Tutorial on how to build crypto coin in C++
+===========================================
+Follow https://education-ecosystem.com/elliottminns/l3Xa0-how-to-create-your-own-cryptocurrency-in-c/dnxJB-how-to-create-your-own-cryptocurrency-in-c/  
+https://education-ecosystem.com/elliottminns/l3Xa0-how-to-create-your-own-cryptocurrency-in-c/dnxJB-how-to-create-your-own-cryptocurrency-in-c/ 
 https://bitcoincore.org
 
 For an immediately usable, binary version of the Bitcoin Core software, see
