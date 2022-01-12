@@ -5,6 +5,7 @@ and start from 0.16.1rc1
 
 Steps
 -----
+```
 sudo apt install rename 
  ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"
 .gitignore add /db4  folder 
@@ -19,6 +20,7 @@ Manual files not copied during rename:
 mv bitcoind.cpp livecoind.cpp
 cp src/config/bitcoin-config.h.in src/config/livecoin-config.h.in
 mv src/script/bitcoinconsensus.cpp src/script/livecoinconsensus.cpp
+``` 
 
 [![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
 
