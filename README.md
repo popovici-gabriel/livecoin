@@ -3,6 +3,23 @@ Tutorial on how to build a crypto coin in C++
 Follow https://education-ecosystem.com/elliottminns/l3Xa0-how-to-create-your-own-cryptocurrency-in-c/dnxJB-how-to-create-your-own-cryptocurrency-in-c/ 
 and start from 0.16.1rc1
 
+Steps
+-----
+sudo apt install rename 
+ ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"
+.gitignore add /db4  folder 
+Execute these into the source code folder: 
+find ./ -type f -readable -writable -exec sed -i "s/Bitcoin/Livecoin/g" {} \; 
+find ./ -type f -readable -writable -exec sed -i "s/bitcoin/livecoin/g" {} \; 
+find ./ -type f -readable -writable -exec sed -i "s/bitcoind/livecoind/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/BTC/LVC/g" {} \;
+find ./ -type f -readable -writable -exec rename -e 's/bitcoin/livecoin/g' {} \;
+
+Manual files not copied during rename:  
+mv bitcoind.cpp livecoind.cpp
+cp src/config/bitcoin-config.h.in src/config/livecoin-config.h.in
+mv src/script/bitcoinconsensus.cpp src/script/livecoinconsensus.cpp
+
 [![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
 
 https://bitcoincore.org
